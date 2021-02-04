@@ -2,7 +2,7 @@
 
 python code for count vehicles.
 
-1. intall requeriments
+1. install requeriments
 2. download ngrok
 3. you need run ngrok like this
 ./ngrok http [port]
