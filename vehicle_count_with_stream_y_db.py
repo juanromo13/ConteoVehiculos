@@ -93,14 +93,14 @@ def contar_vehiculos(img):
                 trucks += 1
 
     print(f"hay {cars} carros y {trucks} camiones")
-    # Subir datos a la DB
+    # Upload data to DB
     total_carros = cars + trucks
     sql = "UPDATE colas_reales set nortsouth=%s WHERE id='1';"
     val = str(total_carros)
     cursor.execute(sql,val)
     connection.commit()
 
-# Abrir video
+# video streaming
 @app.route('/')
 def index():
     return "Bienvenido ve a /video_feed"
