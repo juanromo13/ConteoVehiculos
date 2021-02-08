@@ -4,7 +4,7 @@
 3. requeriments.txt (requeriments python requirements)
 4. yolov3-tiny.cfg (yolo configuration file)
 5. yolov3-tiny.weights (yolo pre-trained weight file)
-6. vehicle_count.py (code for vehicle counting)
+6. vehicle_count.py (code that counts vehicles through a camera or video)
 7. vehicle_count_with_stream_y_db.py (code that counts vehicles through a camera or video, streams video and saves the vehicles counted in a db)
  
 # How to run:
