@@ -5,11 +5,11 @@ import psycopg2
 from flask import Flask, Response
 
 # Conexion DB
-PSQL_HOST = "ec2-52-5-176-53.compute-1.amazonaws.com"
-PSQL_PORT = "5432"
-PSQL_USER = "vsemigwrofvgsy"
-PSQL_PASS = "dec78e50cb74ebc76535f8d151c84df463eeeaed42063d5eb51a0b2b36f81643"
-PSQL_DB = "de220cmq22267r"
+PSQL_HOST = ""
+PSQL_PORT = ""
+PSQL_USER = ""
+PSQL_PASS = ""
+PSQL_DB = ""
 
 connection_address= """
 host=%s port=%s user=%s password=%s dbname=%s
