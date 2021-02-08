@@ -1,11 +1,10 @@
-# ConteoVehiculos
-
 # files
-1. Campanario---.mp4 test videos
-2. coco.names list of object names that the algorithm can recognize
-3. requeriments.txt requeriments python requirements
-4. 
-
+1. Campanario---.mp4 (test videos)
+2. coco.names (list of object names that the algorithm can recognize)
+3. requeriments.txt (requeriments python requirements)
+4. yolov3-tiny.cfg (yolo configuration file)
+5. yolov3-tiny.weights (yolo pre-trained weight file)
+ 
 # How to run:
 python code for count vehicles.
 
