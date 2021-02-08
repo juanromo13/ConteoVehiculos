@@ -13,7 +13,7 @@ python code for count vehicles.
 1. install requeriments, run "pip install -r requirements.txt"
 2. download ngrok
 3. run ngrok "./ngrok http 9999"
-4. conteo_vehiculos_con_stream_y_db.py use a postgres db, you need configure this file with your db.
+4. vehicle_count_with_stream_y_db.py use a postgres db, you need configure this file with your db.
 
 # Note:
 if you want a better recognition, you can download another weights and cfg from https://pjreddie.com/darknet/yolo/ then you must change the code in this line:
