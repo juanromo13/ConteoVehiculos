@@ -42,7 +42,7 @@ if not video.isOpened():
     print("No se pudo abrir el video.")
     exit()
 
-# Count function
+# Counting function
 def contar_vehiculos(img):
     cars = trucks = 0
     # Loading image
