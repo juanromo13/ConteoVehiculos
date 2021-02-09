@@ -19,7 +19,7 @@ if not cap.isOpened():
     print("No se pudo abrir el video.")
     exit()
 
-# Funcion conteo
+# Counting function
 def contar_vehiculos(img):
     cars = trucks = 0
     # Loading image
@@ -71,7 +71,7 @@ def contar_vehiculos(img):
     print(f"hay {cars} carros y {trucks} camiones")
 
 tt = 20
-# Abrir video
+# Show video
 while cap.isOpened():
 
     ret, frame = cap.read()
