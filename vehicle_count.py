@@ -21,7 +21,8 @@ if not cap.isOpened():
 
 # Counting function
 def contar_vehiculos(img):
-    cars = trucks = 0
+    cars =  0
+    trucks = 0
     # Loading image
     height, width, channels = img.shape
 
